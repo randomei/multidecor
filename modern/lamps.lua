@@ -146,9 +146,9 @@ multidecor.register.register_light("plastic_desk_lamp_off", {
 },
 {
 	recipe = {
-		{"multidecor:plastic_sheet", "multidecor:lampshade", "multidecor:plastic_sheet"},
-		{"multidecor:plastic_sheet", "multidecor:bulb", "multidecor:plastic_sheet"},
-		{"", "multidecor:plastic_sheet", ""}
+		{"basic_materials:plastic_sheet", "multidecor:lampshade", "basic_materials:plastic_sheet"},
+		{"basic_materials:plastic_sheet", "multidecor:bulb", "basic_materials:plastic_sheet"},
+		{"", "basic_materials:plastic_sheet", ""}
 	}
 })
 
@@ -208,9 +208,9 @@ multidecor.register.register_light("metal_chandelier_with_plastic_plafonds_off",
 },
 {
 	recipe = {
-		{"multidecor:metal_bar", "multidecor:metal_bar", "multidecor:four_lampshades_set"},
-		{"multidecor:metal_bar", "multidecor:metal_bar", "multidecor:four_bulbs_set"},
-		{"multidecor:metal_bar", "", ""}
+		{"basic_materials:steel_bar", "basic_materials:steel_bar", "multidecor:four_lampshades_set"},
+		{"basic_materials:steel_bar", "basic_materials:steel_bar", "multidecor:four_bulbs_set"},
+		{"basic_materials:steel_bar", "", ""}
 	}
 })
 
@@ -238,7 +238,7 @@ multidecor.register.register_light("brass_candlestick", {
 },
 {
 	recipe = {
-		{"multidecor:steel_sheet", "multidecor:steel_sheet", "multidecor:brass_ingot"},
+		{"multidecor:steel_sheet", "multidecor:steel_sheet", "basic_materials:brass_ingot"},
 		{"multidecor:wax_candle", "", ""},
 		{"", "", ""}
 	}
@@ -332,7 +332,7 @@ multidecor.register.register_light("kitchen_chandelier", {
 {
 	recipe = {
 		{"multidecor:jungleboard", "multidecor:jungleboard", "multidecor:metal_wire"},
-		{"multidecor:plastic_sheet", "multidecor:bulb", "multidecor:saw"},
+		{"basic_materials:plastic_sheet", "multidecor:bulb", "multidecor:saw"},
 		{"", "", ""}
 	},
 	replacements = {{"multidecor:saw", "multidecor:saw"}}

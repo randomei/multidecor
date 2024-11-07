@@ -27,9 +27,9 @@ multidecor.register.register_hedge("dark_rusty_fence", {
 },
 {
 	recipe = {
-		{"multidecor:metal_bar", "dye:black", "multidecor:metal_bar"},
+		{"basic_materials:steel_bar", "dye:black", "basic_materials:steel_bar"},
 		{"", "multidecor:chainlink", ""},
-		{"multidecor:metal_bar", "", "multidecor:metal_bar"}
+		{"basic_materials:steel_bar", "", "basic_materials:steel_bar"}
 	}
 })
 
@@ -73,7 +73,7 @@ multidecor.register.register_furniture_unit("slatted_wooden_fence", {
 {
 	recipe = {
 		{"multidecor:plank", "multidecor:plank", ""},
-		{"multidecor:plank", "multidecor:metal_bar", ""},
+		{"multidecor:plank", "basic_materials:steel_bar", ""},
 		{"multidecor:plank", "multidecor:steel_scissors", ""}
 	},
 	replacements = {{"multidecor:steel_scissors", "multidecor:steel_scissors"}}

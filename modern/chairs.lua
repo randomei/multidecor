@@ -112,8 +112,8 @@ multidecor.register.register_seat("soft_round_modern_metallic_chair", {
 {
 	recipe = {
 		{"wool:white", "wool:white", ""},
-		{"multidecor:metal_bar", "multidecor:metal_bar", ""},
-		{"multidecor:metal_bar", "multidecor:metal_bar", ""}
+		{"basic_materials:steel_bar", "basic_materials:steel_bar", ""},
+		{"basic_materials:steel_bar", "basic_materials:steel_bar", ""}
 	}
 })
 
@@ -141,8 +141,8 @@ multidecor.register.register_seat("round_modern_metallic_stool", {
 {
 	recipe = {
 		{"wool:white", "", ""},
-		{"multidecor:metal_bar", "multidecor:metal_bar", "multidecor:metal_bar"},
-		{"multidecor:metal_bar", "multidecor:metal_bar", ""}
+		{"basic_materials:steel_bar", "basic_materials:steel_bar", "basic_materials:steel_bar"},
+		{"basic_materials:steel_bar", "basic_materials:steel_bar", ""}
 	}
 })
 
@@ -223,7 +223,7 @@ multidecor.register.register_seat("sofa", {
 {
 	recipe = {
 		{"wool:white", "wool:white", "wool:white"},
-		{"multidecor:plastic_sheet", "multidecor:plastic_sheet", ""},
-		{"multidecor:plastic_sheet", "", ""}
+		{"basic_materials:plastic_sheet", "basic_materials:plastic_sheet", ""},
+		{"basic_materials:plastic_sheet", "", ""}
 	}
 })

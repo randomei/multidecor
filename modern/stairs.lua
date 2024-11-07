@@ -63,7 +63,7 @@ local stairs_data = {
 for _, stair in ipairs(stairs_data) do
 	local upper_name = multidecor.helpers.upper_first_letters(stair.name)
 
-	stairs.register_stair_and_slab(
+--[[	stairs.register_stair_and_slab(
 		stair.name,
 		"multidecor:" .. stair.name .. "_block",
 		{cracky=3},
@@ -72,7 +72,7 @@ for _, stair in ipairs(stairs_data) do
 		modern.S(upper_name .. " Slab"),
 		default.node_sound_stone_defaults(),
 		true
-	)
+	)]]
 
 	multidecor.register.register_furniture_unit(stair.name .. "_ledged_stair_segment", {
 		type = "decoration",
@@ -158,7 +158,7 @@ local spiral_stairs_data = {
 	{
 		name="plastic",
 		tex={"multidecor_plastic_material.png", "multidecor_gold_material.png"},
-		base_craft_material = "multidecor:plastic_sheet"
+		base_craft_material = "basic_materials:plastic_sheet"
 	}
 }
 

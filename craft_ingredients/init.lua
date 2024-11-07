@@ -105,7 +105,7 @@ for _, wood in ipairs(woods) do
 	end
 end
 
-bucket.register_liquid(
+--[[bucket.register_liquid(
 	"multidecor:oil_source",
 	"multidecor:oil_flowing",
 	"craft_ingredients:oil_bucket",
@@ -123,7 +123,7 @@ minetest.register_node(":multidecor:marble_block", {
 	tiles = {"multidecor_marble_material.png^[sheet:2x2:0,0"},
 	groups = {cracky=2.5},
 	sounds = default.node_sound_stone_defaults()
-})
+})]]
 
 
 minetest.register_craftitem(":multidecor:cabinet_door",
@@ -156,11 +156,11 @@ minetest.register_craftitem(":multidecor:wool_cloth",
 	inventory_image = "multidecor_wool_cloth.png"
 })
 
-minetest.register_craftitem(":multidecor:metal_bar",
+--[[minetest.register_craftitem(":multidecor:metal_bar",
 {
 	description = S("Metal Bar"),
 	inventory_image = "multidecor_metal_bar.png"
-})
+})]]
 
 minetest.register_craftitem(":multidecor:steel_sheet",
 {
@@ -198,7 +198,7 @@ minetest.register_craftitem(":multidecor:lampshade",
 	inventory_image = "multidecor_lampshade.png"
 })
 
-minetest.register_craftitem(":multidecor:plastic_sheet",
+--[[minetest.register_craftitem(":multidecor:plastic_sheet",
 {
 	description = S("Plastic Sheet"),
 	inventory_image = "multidecor_plastic_sheet.png"
@@ -208,7 +208,7 @@ minetest.register_craftitem(":multidecor:plastic_strip",
 {
 	description = S("Plastic Strip"),
 	inventory_image = "multidecor_plastic_strip.png"
-})
+})]]
 
 minetest.register_craftitem(":multidecor:metal_wire",
 {
@@ -252,11 +252,11 @@ minetest.register_craftitem(":multidecor:digital_dial",
 	inventory_image = "multidecor_digital_dial.png"
 })
 
-minetest.register_craftitem(":multidecor:brass_ingot",
+--[[minetest.register_craftitem(":multidecor:brass_ingot",
 {
 	description = S("Brass Ingot"),
 	inventory_image = "multidecor_brass_ingot.png"
-})
+})]]
 
 minetest.register_craftitem(":multidecor:brass_stripe",
 {
@@ -300,7 +300,7 @@ minetest.register_craftitem(":multidecor:terracotta_fragment",
 	inventory_image = "multidecor_terracotta_fragment.png"
 })
 
-minetest.register_craftitem(":multidecor:copper_and_tin",
+--[[minetest.register_craftitem(":multidecor:copper_and_tin",
 {
 	description = S("Copper And Tin"),
 	inventory_image = "multidecor_copper_and_tin.png"
@@ -310,7 +310,7 @@ minetest.register_craftitem(":multidecor:copper_and_zinc",
 {
 	description = S("Copper And Zinc"),
 	inventory_image = "multidecor_copper_and_zinc.png"
-})
+})]]
 
 minetest.register_craftitem(":multidecor:marble_sheet",
 {
@@ -366,13 +366,13 @@ minetest.register_craft(
 	recipe = {"multidecor:steel_sheet"}
 })
 
-minetest.register_craft(
+--[[minetest.register_craft(
 {
 	type = "shapeless",
 	output = "multidecor:metal_bar 2",
 	recipe = {"default:steel_ingot", "default:steel_ingot", "multidecor:steel_scissors"},
 	replacements = {{"multidecor:steel_scissors", "multidecor:steel_scissors"}}
-})
+})]]
 
 minetest.register_craft(
 {
@@ -400,7 +400,7 @@ minetest.register_craft(
 {
 	type = "shapeless",
 	output = "multidecor:hammer",
-	recipe = {"default:stick", "multidecor:metal_bar"}
+	recipe = {"default:stick", "basic_materials:steel_bar"}
 })
 
 minetest.register_craft(
@@ -417,7 +417,7 @@ minetest.register_craft(
 	recipe = {"wool:white", "multidecor:metal_wire"}
 })
 
-minetest.register_craft({
+--[[minetest.register_craft({
     type = "cooking",
     output = "multidecor:plastic_sheet",
     recipe = "default:leaves",
@@ -428,7 +428,7 @@ minetest.register_craft({
     type = "shapeless",
     output = "multidecor:plastic_strip 2",
     recipe = {"multidecor:plastic_sheet"}
-})
+})]]
 
 minetest.register_craft({
 	type = "shapeless",
@@ -437,7 +437,7 @@ minetest.register_craft({
 	replacements = {{"multidecor:hammer", "multidecor:hammer"}}
 })
 
-minetest.register_craft(
+--[[minetest.register_craft(
 {
 	type = "shapeless",
 	output = "multidecor:copper_and_tin",
@@ -449,7 +449,7 @@ minetest.register_craft(
 	type = "shapeless",
 	output = "multidecor:copper_and_zinc",
 	recipe = {"default:copper_ingot", "multidecor:zinc_ingot"}
-})
+})]]
 
 if minetest.get_modpath("moreores") then
 	minetest.register_craft(
@@ -486,7 +486,7 @@ minetest.register_craft({
 minetest.register_craft({
 	type = "shapeless",
 	output = "multidecor:metal_wire 5",
-	recipe = {"multidecor:metal_bar", "multidecor:steel_scissors"},
+	recipe = {"basic_materials:steel_bar", "multidecor:steel_scissors"},
 	replacements = {{"multidecor:steel_scissors", "multidecor:steel_scissors"}}
 })
 
@@ -509,21 +509,21 @@ minetest.register_craft({
 	recipe = {"multidecor:lampshade", "multidecor:lampshade", "multidecor:lampshade", "multidecor:lampshade"}
 })
 
-minetest.register_craft({
+--[[minetest.register_craft({
 	type = "cooking",
 	output = "multidecor:brass_ingot",
 	recipe = "multidecor:copper_and_tin",
 	cooktime = 8
-})
+})]]
 
 minetest.register_craft({
 	type = "shapeless",
 	output = "multidecor:brass_stripe 4",
-	recipe = {"multidecor:brass_ingot", "multidecor:steel_scissors"},
+	recipe = {"basic_materials:brass_ingot", "multidecor:steel_scissors"},
 	replacements = {{"multidecor:steel_scissors", "multidecor:steel_scissors"}}
 })
 
-minetest.register_craft({
+--[[minetest.register_craft({
 	type = "cooking",
 	output = "multidecor:oil_source",
 	recipe = "multidecor:consolidated_oil",
@@ -548,12 +548,12 @@ minetest.register_craft({
 	type = "shapeless",
 	output = "multidecor:brass_ingot",
 	recipe = {"default:copper_ingot", "default:tin_ingot"}
-})
+})]]
 
 minetest.register_craft({
 	output = "multidecor:digital_dial",
 	recipe = {
-		{"multidecor:plastic_sheet", "dye:white", "dye:black"},
+		{"basic_materials:plastic_sheet", "dye:white", "dye:black"},
 		{"multidecor:steel_scissors", "", ""},
 		{"", "", ""}
 	},
@@ -582,23 +582,23 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_craft({
+--[[minetest.register_craft({
 	type = "shapeless",
 	output = "multidecor:marble_block",
 	recipe = {"default:clay", "default:silver_sandstone", "default:coal_lump"}
-})
+})]]
 
 minetest.register_craft({
 	type = "shapeless",
 	output = "multidecor:marble_sheet 2",
-	recipe = {"stairs:slab_marble", "multidecor:hammer"},
+	recipe = {"technic:slab_marble_8", "multidecor:hammer"},
 	replacements = {{"multidecor:hammer", "multidecor:hammer"}}
 })
 
 minetest.register_craft({
 	output = "multidecor:syphon",
 	recipe = {
-		{"multidecor:steel_sheet", "multidecor:metal_bar", "multidecor:steel_scissors"},
+		{"multidecor:steel_sheet", "basic_materials:steel_bar", "multidecor:steel_scissors"},
 		{"", "", ""},
 		{"", "", ""}
 	}

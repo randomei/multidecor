@@ -85,9 +85,9 @@ for louvers, part in pairs(louvers_parts) do
 	},
 	{
 		recipe = {
-			{"multidecor:plastic_strip", "multidecor:plastic_strip", "multidecor:plastic_strip"},
-			{"multidecor:plastic_strip", "multidecor:plastic_strip", "multidecor:plastic_strip"},
-			{"multidecor:plastic_strip", "multidecor:plastic_strip", "multidecor:steel_scissors"}
+			{"basic_materials:plastic_strip", "basic_materials:plastic_strip", "basic_materials:plastic_strip"},
+			{"basic_materials:plastic_strip", "basic_materials:plastic_strip", "basic_materials:plastic_strip"},
+			{"basic_materials:plastic_strip", "basic_materials:plastic_strip", "multidecor:steel_scissors"}
 		},
 		replacements = {{"multidecor:steel_scissors", "multidecor:steel_scissors"}}
 	})
@@ -280,7 +280,7 @@ multidecor.register.register_furniture_unit("alarm_clock", {
 {
 	recipe = {
 		{"multidecor:steel_sheet", "multidecor:steel_sheet", "dye:green"},
-		{"multidecor:plastic_sheet", "multidecor:digital_dial", "multidecor:plastic_sheet"},
+		{"basic_materials:plastic_sheet", "multidecor:digital_dial", "basic_materials:plastic_sheet"},
 		{"multidecor:spring", "multidecor:gear", "multidecor:steel_scissors"}
 	},
 	replacements = {{"multidecor:steel_scissors", "multidecor:steel_scissors"}}
@@ -563,8 +563,8 @@ multidecor.register.register_furniture_unit("white_plastic_flowerpot", {
 },
 {
 	recipe = {
-		{"multidecor:plastic_sheet", "multidecor:plastic_sheet", "multidecor:plastic_sheet"},
-		{"multidecor:plastic_sheet", "default:dirt", "multidecor:plastic_sheet"},
-		{"multidecor:plastic_sheet", "multidecor:plastic_sheet", "multidecor:plastic_sheet"}
+		{"basic_materials:plastic_sheet", "basic_materials:plastic_sheet", "basic_materials:plastic_sheet"},
+		{"basic_materials:plastic_sheet", "default:dirt", "basic_materials:plastic_sheet"},
+		{"basic_materials:plastic_sheet", "basic_materials:plastic_sheet", "basic_materials:plastic_sheet"}
 	}
 })
