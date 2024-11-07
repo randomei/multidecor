@@ -75,7 +75,7 @@ minetest.register_craft({
 	cooktime = 8
 })
 
-minetest.register_node(":multidecor:zinc_ore", {
+--[[minetest.register_node(":multidecor:zinc_ore", {
     description = "Zinc Ore",
     tiles = {"default_stone.png^multidecor_zinc_mineral.png"},
     is_ground_content = true,
@@ -276,4 +276,4 @@ minetest.register_ore({
     clust_size = 2,
     y_min = -31000,
     y_max = -30
-})
+})]]

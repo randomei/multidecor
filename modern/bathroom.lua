@@ -300,7 +300,7 @@ for _, style in ipairs(bathroom_styles) do
 	{
 		recipe = {
 			{"multidecor:pine_board", "multidecor:pine_board", "xpanes:pane_flat"},
-			{"multidecor:pine_plank", panel_name, "multidecor:plastic_sheet"},
+			{"multidecor:pine_plank", panel_name, "basic_materials:plastic_sheet"},
 			{"multidecor:steel_sheet", "multidecor:saw", ""}
 		},
 		replacements = {{"multidecor:saw", "multidecor:saw"}}
@@ -397,8 +397,8 @@ multidecor.register.register_furniture_unit("bathroom_slatted_ceiling", {
 },
 {
 	recipe = {
-		{"multidecor:plastic_sheet", "", ""},
-		{"multidecor:plastic_sheet", "multidecor:steel_scissors", ""},
+		{"basic_materials:plastic_sheet", "", ""},
+		{"basic_materials:plastic_sheet", "multidecor:steel_scissors", ""},
 		{"", "", ""}
 	},
 	replacements = {{"multidecor:steel_scissors", "multidecor:steel_scissors"}}
@@ -424,8 +424,8 @@ multidecor.register.register_furniture_unit("bathroom_slatted_ceiling_with_lamp"
 },
 {
 	recipe = {
-		{"multidecor:plastic_sheet", "multidecor:bulb", "multidecor:steel_sheet"},
-		{"multidecor:plastic_sheet", "multidecor:steel_scissors", ""},
+		{"basic_materials:plastic_sheet", "multidecor:bulb", "multidecor:steel_sheet"},
+		{"basic_materials:plastic_sheet", "multidecor:steel_scissors", ""},
 		{"", "", ""}
 	},
 	replacements = {{"multidecor:steel_scissors", "multidecor:steel_scissors"}}
@@ -488,7 +488,7 @@ multidecor.register.register_seat("toilet", {
 {
 	recipe = {
 		{"multidecor:marble_sheet", "multidecor:marble_sheet", "bucket:bucket_water"},
-		{"multidecor:marble_sheet", "multidecor:metal_bar", "multidecor:hammer"},
+		{"multidecor:marble_sheet", "basic_materials:steel_bar", "multidecor:hammer"},
 		{"", "", ""}
 	},
 	replacements = {{"multidecor:hammer", "multidecor:hammer"}}
@@ -515,7 +515,7 @@ multidecor.register.register_curtain("bathroom_curtain", {
 			tiles = {"multidecor_cloth.png", {name="multidecor_metal_material.png",color=0xffffffff}},
 			craft = {
 				recipe = {
-					{"multidecor:wool_cloth", "multidecor:metal_bar", "multidecor:steel_scissors"},
+					{"multidecor:wool_cloth", "basic_materials:steel_bar", "multidecor:steel_scissors"},
 					{"", "", ""},
 					{"", "", ""}
 				},
@@ -571,7 +571,7 @@ multidecor.register.register_table("plastic_quadratic_cornice", {
 },
 {
 	recipe = {
-		{"multidecor:plastic_sheet", "multidecor:steel_scissors"}
+		{"basic_materials:plastic_sheet", "multidecor:steel_scissors"}
 	},
 	count = 5,
 	replacements = {{"multidecor:steel_scissors", "multidecor:steel_scissors"}}
@@ -609,7 +609,7 @@ multidecor.register.register_furniture_unit("bathroom_tap_with_cap_flap", {
 },
 {
 	recipe = {
-		{"multidecor:steel_sheet", "multidecor:metal_bar", "multidecor:steel_sheet"},
+		{"multidecor:steel_sheet", "basic_materials:steel_bar", "multidecor:steel_sheet"},
 		{"", "", ""},
 		{"", "", ""}
 	}
@@ -647,7 +647,7 @@ multidecor.register.register_furniture_unit("bathroom_tap_with_side_flaps", {
 },
 {
 	recipe = {
-		{"multidecor:steel_sheet", "multidecor:metal_bar", "multidecor:metal_bar"},
+		{"multidecor:steel_sheet", "basic_materials:steel_bar", "basic_materials:steel_bar"},
 		{"", "", ""},
 		{"", "", ""}
 	}
@@ -686,7 +686,7 @@ multidecor.register.register_furniture_unit("shower_head", {
 },
 {
 	recipe = {
-		{"multidecor:metal_bar", "multidecor:plastic_sheet", ""},
+		{"basic_materials:steel_bar", "basic_materials:plastic_sheet", ""},
 		{"", "", ""},
 		{"", "", ""}
 	}
@@ -724,7 +724,7 @@ multidecor.register.register_furniture_unit("crooked_shower_head", {
 },
 {
 	recipe = {
-		{"multidecor:coarse_steel_sheet", "multidecor:coarse_steel_sheet", "multidecor:plastic_sheet"},
+		{"multidecor:coarse_steel_sheet", "multidecor:coarse_steel_sheet", "basic_materials:plastic_sheet"},
 		{"multidecor:coarse_steel_sheet", "", ""},
 		{"", "", ""}
 	}
@@ -758,7 +758,7 @@ multidecor.register.register_furniture_unit("toilet_paper_reel", {
 {
 	recipe = {
 		{"default:paper", "default:paper", "default:paper"},
-		{"multidecor:metal_bar", "", ""},
+		{"basic_materials:steel_bar", "", ""},
 		{"", "", ""}
 	}
 }
@@ -799,7 +799,7 @@ multidecor.register.register_furniture_unit("underwear_tank", {
 {
 	recipe = {
 		{"multidecor:wool_cloth", "multidecor:wool_cloth", "dye:yellow"},
-		{"multidecor:wool_cloth", "multidecor:plastic_sheet", "dye:cyan"},
+		{"multidecor:wool_cloth", "basic_materials:plastic_sheet", "dye:cyan"},
 		{"", "", ""}
 	}
 })

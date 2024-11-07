@@ -92,8 +92,8 @@ multidecor.register.register_table("round_modern_metallic_table", {
 {
 	recipe = {
 		{"", "multidecor:aspen_board", ""},
-		{"multidecor:metal_bar", "multidecor:metal_bar", "multidecor:metal_bar"},
-		{"", "multidecor:metal_bar", ""}
+		{"basic_materials:steel_bar", "basic_materials:steel_bar", "basic_materials:steel_bar"},
+		{"", "basic_materials:steel_bar", ""}
 	}
 })
 
@@ -213,8 +213,8 @@ multidecor.register.register_table("modern_wooden_table_with_metallic_legs", {
 {
 	recipe = {
 		{"", "multidecor:pine_board", ""},
-		{"multidecor:metal_bar", "multidecor:pine_board", "multidecor:metal_bar"},
-		{"multidecor:metal_bar", "", "multidecor:metal_bar"}
+		{"basic_materials:steel_bar", "multidecor:pine_board", "basic_materials:steel_bar"},
+		{"basic_materials:steel_bar", "", "basic_materials:steel_bar"}
 	}
 })
 

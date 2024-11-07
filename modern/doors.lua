@@ -78,7 +78,7 @@ local doors_hands_texs = {
 local doors_hands_metals = {
 	"default:steel_ingot",
 	"default:copper_ingot",
-	"multidecor:brass_ingot",
+	"basic_materials:brass_ingot",
 	"default:gold_ingot",
 	"default:gold_ingot"
 }

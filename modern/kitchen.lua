@@ -321,8 +321,8 @@ multidecor.register.register_furniture_unit("ceiling_fan", {
 },
 {
 	recipe = {
-		{"multidecor:plastic_sheet", "multidecor:plastic_sheet", ""},
-		{"multidecor:metal_bar", "", ""},
+		{"basic_materials:plastic_sheet", "basic_materials:plastic_sheet", ""},
+		{"basic_materials:steel_bar", "", ""},
 		{"", "", ""}
 	}
 })
@@ -425,7 +425,7 @@ multidecor.register.register_furniture_unit("kitchen_cooker", {
 },
 {
 	recipe = {
-		{"multidecor:steel_sheet", "multidecor:steel_sheet", "multidecor:plastic_sheet"},
+		{"multidecor:steel_sheet", "multidecor:steel_sheet", "basic_materials:plastic_sheet"},
 		{"multidecor:bulb", "xpanes:pane_flat", "multidecor:steel_sheet"},
 		{"", "", ""}
 	}
@@ -568,8 +568,8 @@ multidecor.register.register_furniture_unit("kitchen_fridge", {
 {
 	recipe = {
 		{"multidecor:steel_sheet", "multidecor:steel_sheet", "multidecor:steel_sheet"},
-		{"multidecor:steel_sheet", "multidecor:plastic_sheet", "multidecor:plastic_sheet"},
-		{"multidecor:metal_bar", "xpanes:pane_flat", "multidecor:wolfram_wire"}
+		{"multidecor:steel_sheet", "basic_materials:plastic_sheet", "basic_materials:plastic_sheet"},
+		{"basic_materials:steel_bar", "xpanes:pane_flat", "multidecor:wolfram_wire"}
 	}
 })
 
@@ -725,7 +725,7 @@ multidecor.register.register_furniture_unit("saucepans_set", {
 {
 	recipe = {
 		{"multidecor:steel_sheet", "xpanes:pane_flat", "dye:black"},
-		{"multidecor:steel_sheet", "xpanes:pane_flat", "multidecor:plastic_sheet"},
+		{"multidecor:steel_sheet", "xpanes:pane_flat", "basic_materials:plastic_sheet"},
 		{"multidecor:steel_sheet" , "", ""}
 	}
 })
@@ -969,7 +969,7 @@ multidecor.register.register_furniture_unit("kitchen_metallic_hanger", {
 },
 {
 	recipe = {
-		{"multidecor:coarse_steel_sheet", "multidecor:metal_bar", ""},
+		{"multidecor:coarse_steel_sheet", "basic_materials:steel_bar", ""},
 		{"", "", ""},
 		{"", "", ""}
 	}
@@ -996,7 +996,7 @@ multidecor.register.register_furniture_unit("kitchen_metallic_hanger_with_ladle_
 },
 {
 	recipe = {
-		{"multidecor:coarse_steel_sheet", "multidecor:metal_bar", "multidecor:metal_bar"},
+		{"multidecor:coarse_steel_sheet", "basic_materials:steel_bar", "basic_materials:steel_bar"},
 		{"multidecor:coarse_steel_sheet", "multidecor:board", ""},
 		{"", "", ""}
 	}
@@ -1019,7 +1019,7 @@ multidecor.register.register_furniture_unit("kitchen_organiser", {
 },
 {
 	recipe = {
-		{"multidecor:steel_sheet", "multidecor:plastic_sheet", "dye:black"},
+		{"multidecor:steel_sheet", "basic_materials:plastic_sheet", "dye:black"},
 		{"multidecor:steel_sheet", "multidecor:steel_scissors", ""},
 		{"", "", ""}
 	},
@@ -1066,7 +1066,7 @@ multidecor.register.register_furniture_unit("microwave", {
 },
 {
 	recipe = {
-		{"multidecor:plastic_sheet", "multidecor:plastic_sheet", "multidecor:plastic_sheet"},
+		{"basic_materials:plastic_sheet", "basic_materials:plastic_sheet", "basic_materials:plastic_sheet"},
 		{"multidecor:steel_sheet", "xpanes:pane_flat", "multidecor:wolfram_wire"},
 		{"multidecor:chainlink", "multidecor:steel_sheet", ""}
 	}
