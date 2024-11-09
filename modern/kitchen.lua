@@ -908,7 +908,7 @@ local tiles = {
 for name, def in pairs(tiles) do
 	local tile_name = "multidecor:" .. name
 	minetest.register_node(":" .. tile_name, {
-		description = def[1],
+		description = modern.S(def[1]),
 		drawtype = "nodebox",
 		visual_scale = 1.0,
 		paramtype = "light",
@@ -927,7 +927,7 @@ for name, def in pairs(tiles) do
 
 	local block_name = "multidecor:" .. name .. "s_block"
 	minetest.register_node(":" .. block_name, {
-		description = def[1] .. "s Block",
+		description = modern.S(def[1] .. "s Block"),
 		visual_scale = 0.5,
 		paramtype = "light",
 		paramtype2 = "facedir",
