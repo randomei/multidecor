@@ -77,7 +77,7 @@ minetest.register_craft({
 	cooktime = 8
 })
 
---[[minetest.register_node(":multidecor:zinc_ore", {
+minetest.register_node(":multidecor:zinc_ore", {
     description = S("Zinc Ore"),
     tiles = {"default_stone.png^multidecor_zinc_mineral.png"},
     is_ground_content = true,
@@ -154,7 +154,7 @@ minetest.register_craft({
 	cooktime = 5
 })
 
-minetest.register_node(":multidecor:granite_block", {
+--[[minetest.register_node(":multidecor:granite_block", {
 	description = S("Granite Block"),
 	paramtype = "light",
 	paramtype2 = "none",

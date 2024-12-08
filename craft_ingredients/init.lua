@@ -113,7 +113,7 @@ end
 	"Oil Bucket",
 	nil,
 	true
-)
+)]]
 
 minetest.register_node(":multidecor:marble_block", {
 	description = S("Marble Block"),
@@ -123,7 +123,7 @@ minetest.register_node(":multidecor:marble_block", {
 	tiles = {"multidecor_marble_material.png^[sheet:2x2:0,0"},
 	groups = {cracky=2.5},
 	sounds = default.node_sound_stone_defaults()
-})]]
+})
 
 
 minetest.register_craftitem(":multidecor:cabinet_door",
@@ -304,13 +304,13 @@ minetest.register_craftitem(":multidecor:terracotta_fragment",
 {
 	description = S("Copper And Tin"),
 	inventory_image = "multidecor_copper_and_tin.png"
-})
+})]]
 
 minetest.register_craftitem(":multidecor:copper_and_zinc",
 {
 	description = S("Copper And Zinc"),
 	inventory_image = "multidecor_copper_and_zinc.png"
-})]]
+})
 
 minetest.register_craftitem(":multidecor:marble_sheet",
 {
@@ -442,14 +442,14 @@ minetest.register_craft({
 	type = "shapeless",
 	output = "multidecor:copper_and_tin",
 	recipe = {"default:copper_ingot", "default:tin_ingot"}
-})
+})]]
 
 minetest.register_craft(
 {
 	type = "shapeless",
 	output = "multidecor:copper_and_zinc",
 	recipe = {"default:copper_ingot", "multidecor:zinc_ingot"}
-})]]
+})
 
 if minetest.get_modpath("moreores") then
 	minetest.register_craft(
@@ -582,11 +582,11 @@ minetest.register_craft({
 	}
 })
 
---[[minetest.register_craft({
+minetest.register_craft({
 	type = "shapeless",
 	output = "multidecor:marble_block",
 	recipe = {"default:clay", "default:silver_sandstone", "default:coal_lump"}
-})]]
+})
 
 minetest.register_craft({
 	type = "shapeless",
