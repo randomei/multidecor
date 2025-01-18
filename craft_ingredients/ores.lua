@@ -154,7 +154,7 @@ minetest.register_craft({
 	cooktime = 5
 })
 
-minetest.register_node(":multidecor:granite_block", {
+--[[minetest.register_node(":multidecor:granite_block", {
 	description = S("Granite Block"),
 	paramtype = "light",
 	paramtype2 = "none",
@@ -278,4 +278,4 @@ minetest.register_ore({
     clust_size = 2,
     y_min = -31000,
     y_max = -30
-})
+})]]
